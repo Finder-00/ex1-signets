@@ -1,0 +1,13 @@
+.Appli {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Appli div {
+  width: 150px;
+  height: 150px;
+  background-color: #23968c;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=Appli.css.map */

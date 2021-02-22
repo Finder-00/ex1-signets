@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 10px;
+}
+
+header div{
+    margin: 2vh 0 ;
+    font-size: clamp(.9rem, #{"-.8rem + 5vw"}, 1.5rem)
+}
