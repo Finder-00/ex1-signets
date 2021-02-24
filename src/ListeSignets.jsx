@@ -5,7 +5,7 @@ import tableSignets from './data/signets.json';
 export default function ListeSignets(props){
     return(
         <div className="ListeSignets">
-            {tableSignets.map(signet => <Signet titre={signet.titre} dateModif={signet.dateModif}/>)}
+            {tableSignets.map(signet => <Signet key={signet.id} id={signet.id} titre={signet.titre} couleur={signet.couleur} dateModif={signet.dateModif}/>)}
         </div>
     );
 }

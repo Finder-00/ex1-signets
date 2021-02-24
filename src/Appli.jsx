@@ -8,6 +8,7 @@ export default function Appli() {
     <Header/>
       <div className="Appli">
         <ListeSignets/>
+          <div className="boutonBas"><p>+</p></div>
       </div>
     </>
   );

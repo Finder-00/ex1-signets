@@ -1,12 +1,13 @@
-import './Header.scss'
+import './Header.scss';
+//import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+//import { Badge } from '@material-ui/core';
 
 export default function Header() {
 
-    var prenom = prompt("Quel est votre prénom : ")
     return(
         <header>
-            <div>signet (Beta)</div>
-            <div>{prenom}</div>
+            <div>Signet (Beta)</div>
+            <div>Francis desjardin</div>
         </header>
     );
 }

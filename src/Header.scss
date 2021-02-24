@@ -1,11 +1,21 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: rgb(70, 118, 140);
     padding: 10px;
+    color: white;
 }
 
 header div{
+    display: block;
     margin: 2vh 0 ;
-    font-size: clamp(.9rem, #{"-.8rem + 5vw"}, 1.5rem)
+    font-size: clamp(.9rem, #{"-.8rem + 5vw"}, 1.5rem);
+    &:first-child{
+        font-weight: bold;
+    }
+}
+
+header div:nth-child(2){
+    overflow: hidden;
+    text-overflow:fade(10%);
 }

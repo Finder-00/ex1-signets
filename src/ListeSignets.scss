@@ -1,12 +1,6 @@
 .ListeSignets{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.ListeSignets div{
-    width: 150px;
-    height: 150px;
-    background-color: rgb(35, 150, 140);
-    margin-bottom: 10px;
+    padding-top: 10vh;
 }

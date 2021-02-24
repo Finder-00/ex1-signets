@@ -1,0 +1,29 @@
+.LeSignet {
+  background-color: violet;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.contenu {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 8px 8px;
+  width: 100%;
+  font-size: clamp(0.8rem, -.8rem + 2vw, 2.5rem);
+  background-color: red;
+  color: white;
+}
+
+.contenu div {
+  height: 20px;
+  padding-left: 10px;
+}
+
+.titre {
+  font-weight: bold;
+}
+/*# sourceMappingURL=Signet.css.map */

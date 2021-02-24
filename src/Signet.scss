@@ -1,9 +1,47 @@
+// @import './data/signets.json'; //A voir il faut configuer dans les setting avant : https://stackoverflow.com/questions/60510735/angular-how-to-parse-json-variables-into-scss
+//https://www.npmjs.com/package/scss-to-json
+
 .LeSignet{
-    color: wheat;
+    //background-image: 'imageSignets/'+$id+'.jpg'; //A voir il faut configuer dans les setting avant : https://stackoverflow.com/questions/60510735/angular-how-to-parse-json-variables-into-scss
+    width: 250px;
+    height: 250px;
     display: flex;
     flex-direction: column;
+    margin: 10px;
+    img{ 
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        height: 80%;
+    }
+}
+
+.contenu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 6px 6px;
+    width: 100%;
+    // font-size: clamp(1rem, #{"-1.5rem + 2.5vw"}, 2rem);
+    font-size: clamp(1.35rem, 1.5vw, 3rem); 
+    color: white;
+    div{
+        height: 20px;
+        padding: 5px;
+    }
+    &:last-child{
+        padding-bottom: 15px;
+        font-weight: lighter;
+    }
 }
 
 .titre{
+    font-weight: bold;
+}
+
+.point{
+    position:absolute;
+    bottom: 5px;
+    align-self: flex-end;
+    align-items: flex-end;
 
 }
