@@ -7,8 +7,8 @@ body{
 
 .Appli{
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    // width: 100vw;
+    // height: 100vh;
     background-color: rgb(27, 38, 52);
 }
 
@@ -24,7 +24,7 @@ body{
     &:hover{
         background-color: rgb(61, 95, 118);
         cursor: pointer;
-        transition: all .5s;
+        transition: all .1s;
     }
     p{
         margin: 0 auto;

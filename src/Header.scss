@@ -1,21 +1,32 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(70, 118, 140);
-    padding: 10px;
+    background-color: rgb(67, 77, 89);
+    padding: 0 10px;
     color: white;
 }
 
 header div{
-    display: block;
+    display: flex;
     margin: 2vh 0 ;
     font-size: clamp(.9rem, #{"-.8rem + 5vw"}, 1.5rem);
-    &:first-child{
-        font-weight: bold;
-    }
+    align-self: center;
 }
 
 header div:nth-child(2){
     overflow: hidden;
     text-overflow:fade(10%);
+}
+
+.user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    align-self: center;
+    margin-left: 15px;
+    &:hover{
+        cursor: pointer;
+        transform: scale(103%);
+        transition: all .2s;
+    }
 }
