@@ -1,6 +1,4 @@
 import './Header.scss';
-//import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-//import { Badge } from '@material-ui/core';
 
 export default function Header() {
 

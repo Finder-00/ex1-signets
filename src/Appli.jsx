@@ -1,3 +1,4 @@
+import 'normalize-scss';
 import './Appli.scss';
 import Header from './Header';
 import ListeSignets from './ListeSignets';
