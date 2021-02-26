@@ -1,5 +1,4 @@
 # Liens de l'application
+https://finder-00.github.io/ex1-signets/
 
-
-Site pour l'exercise 1
 Photos prises par Arthur Robitaille© Tout droit réservé
